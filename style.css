@@ -1,0 +1,47 @@
+body{
+    background-color: #FF009B;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.search{
+    text-align: center;
+    width: 40%;
+    margin: 20px auto;
+    padding: 0;
+    
+}
+#target{
+    color: #fff;
+    background-color: #AC0068;
+    padding: 10px;
+    width: 100%;
+    border: 0.5px solid #fff;
+    margin-bottom: 20px;
+}
+#target::-webkit-input-placeholder{
+    color: #fff;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.results{
+    max-width: 80%;
+    margin: 20px auto;
+}
+.item{
+    text-decoration: none;  
+}
+.holder{
+    color: #AC0068;
+    background-color: #fff;
+    padding: 10px 30px;
+    margin: 10px;
+}
+.btn{
+    color: #fff;
+    padding: 15px;
+    margin: 20px;
+    background-color: #AC0068;
+}
